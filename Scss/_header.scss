@@ -1,0 +1,30 @@
+.header-img {
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .header-img-title {
+    color: var(--mainWhiteColor);
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    font-family: "Rosario", sans-serif;
+  }
+  .header-img-btn {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    border: none;
+    padding: 1.2rem 2.5rem;
+    border-radius: 0 25% 0 25%;
+    font-size: 2rem;
+    transition: 300ms;
+    &:hover {
+      background-color: var(--mainBlueColor);
+      color: var(--mainWhiteColor);
+      cursor: pointer;
+    }
+  }
+}

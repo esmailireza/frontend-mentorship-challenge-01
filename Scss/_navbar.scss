@@ -1,0 +1,27 @@
+@mixin font-color-size {
+  font-size: 2.5rem;
+  color: var(--mainWhiteColor);
+}
+
+.navbar {
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--mainBlueColor);
+  align-items: center;
+  justify-content: center;
+  .navbar-center {
+    max-width: 1400px;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      @include font-color-size();
+    }
+    i {
+      @include font-color-size();
+    }
+  }
+}

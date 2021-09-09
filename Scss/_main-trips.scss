@@ -1,0 +1,101 @@
+@mixin box-image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin image-trip {
+  width: 100%;
+  height: 33rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin image-trip-before {
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) 50%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin image-h2 {
+  font-size: 2rem;
+  color: var(--mainWhiteColor);
+  position: absolute;
+  bottom: 2rem;
+  left: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  margin-bottom: 2rem;
+  .container-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    .container-images-h1 {
+      font-size: 3rem;
+      font-family: "Rosario", sans-serif;
+    }
+    .section-images {
+      width: 100%;
+      max-width: 1400px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-column-gap: 4rem;
+      grid-row-gap: 2rem;
+      margin: 2rem 0;
+      .box-image {
+        @include box-image();
+        .image-trip {
+          @include image-trip();
+          &::before {
+            @include image-trip-before();
+          }
+          &.trip-1 {
+            background-image: url(../images/3.jpg);
+            .image-h2 {
+              @include image-h2();
+            }
+          }
+        }
+      }
+      /* box-img-2 */
+      .box-image {
+        @include box-image();
+        .image-trip {
+          @include image-trip();
+          &::before {
+            @include image-trip-before();
+          }
+          &.trip-2 {
+            background-image: url(../images/4.jpg);
+            .image-h2 {
+              @include image-h2();
+            }
+          }
+        }
+      }
+      /* box-img-3 */
+      .box-image {
+        @include box-image();
+        .image-trip {
+          @include image-trip();
+          &::before {
+            @include image-trip-before();
+          }
+          &.trip-3 {
+            background-image: url(../images/3.jpg);
+            .image-h2 {
+              @include image-h2();
+            }
+          }
+        }
+      }
+    }
+  }
+}

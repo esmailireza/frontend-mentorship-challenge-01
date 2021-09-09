@@ -1,0 +1,39 @@
+.section-footer {
+  display: flex;
+  justify-content: center;
+  footer {
+    margin: 3rem 0;
+    width: 100%;
+    max-width: 1400px;
+    margin: 3rem 0rem;
+    .list-group {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .list-items-main {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        li {
+          padding-right: 3rem;
+          font-size: 1.3rem;
+        }
+      }
+      .list-items-icons {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding-right: 4rem;
+        li {
+          padding-right: 3rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .footer-p {
+      margin-top: 2rem;
+    }
+  }
+}
