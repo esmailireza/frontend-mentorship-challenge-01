@@ -57,7 +57,7 @@ main {
             @include image-trip-before();
           }
           &.trip-1 {
-            background-image: url(../images/3.jpg);
+            background-image: url(../../images/3.jpg);
             .image-h2 {
               @include image-h2();
             }
@@ -73,7 +73,7 @@ main {
             @include image-trip-before();
           }
           &.trip-2 {
-            background-image: url(../images/4.jpg);
+            background-image: url(../../images/4.jpg);
             .image-h2 {
               @include image-h2();
             }
@@ -89,7 +89,7 @@ main {
             @include image-trip-before();
           }
           &.trip-3 {
-            background-image: url(../images/3.jpg);
+            background-image: url(../../images/3.jpg);
             .image-h2 {
               @include image-h2();
             }

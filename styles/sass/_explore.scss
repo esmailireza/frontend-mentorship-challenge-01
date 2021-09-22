@@ -65,7 +65,7 @@
       .image {
         @include image();
         &.explore-img-1 {
-          background-image: url(../images/1.jpg);
+          background-image: url(../../images/1.jpg);
           .heart-icon {
             @include heart-icon();
           }
@@ -87,7 +87,7 @@
       .image {
         @include image();
         &.explore-img-2 {
-          background-image: url(../images/2.jpg);
+          background-image: url(../../images/2.jpg);
           .heart-icon {
             @include heart-icon();
           }
@@ -109,7 +109,7 @@
       .image {
         @include image();
         &.explore-img-3 {
-          background-image: url(../images/8.jpg);
+          background-image: url(../../images/8.jpg);
           .heart-icon {
             @include heart-icon();
           }

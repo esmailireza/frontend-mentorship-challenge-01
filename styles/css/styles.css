@@ -166,7 +166,7 @@ main .container-images .section-images .box-image .image-trip::before {
 }
 
 main .container-images .section-images .box-image .image-trip.trip-1 {
-  background-image: url(../images/3.jpg);
+  background-image: url(../../images/3.jpg);
 }
 
 main .container-images .section-images .box-image .image-trip.trip-1 .image-h2 {
@@ -207,7 +207,7 @@ main .container-images .section-images .box-image .image-trip::before {
 }
 
 main .container-images .section-images .box-image .image-trip.trip-2 {
-  background-image: url(../images/4.jpg);
+  background-image: url(../../images/4.jpg);
 }
 
 main .container-images .section-images .box-image .image-trip.trip-2 .image-h2 {
@@ -248,7 +248,7 @@ main .container-images .section-images .box-image .image-trip::before {
 }
 
 main .container-images .section-images .box-image .image-trip.trip-3 {
-  background-image: url(../images/3.jpg);
+  background-image: url(../../images/3.jpg);
 }
 
 main .container-images .section-images .box-image .image-trip.trip-3 .image-h2 {
@@ -270,7 +270,7 @@ section {
 }
 
 section #section-2 {
-  background-image: url("../images/6.jpg");
+  background-image: url("../../images/6.jpg");
   width: 88%;
   height: 40rem;
   background-position: center;
@@ -385,7 +385,7 @@ section #section-2 .section-2-btn:hover {
 }
 
 .container-explore .section-images .box-image .image.explore-img-1 {
-  background-image: url(../images/1.jpg);
+  background-image: url(../../images/1.jpg);
 }
 
 .container-explore .section-images .box-image .image.explore-img-1 .heart-icon {
@@ -447,7 +447,7 @@ section #section-2 .section-2-btn:hover {
 }
 
 .container-explore .section-images .box-image .image.explore-img-2 {
-  background-image: url(../images/2.jpg);
+  background-image: url(../../images/2.jpg);
 }
 
 .container-explore .section-images .box-image .image.explore-img-2 .heart-icon {
@@ -509,7 +509,7 @@ section #section-2 .section-2-btn:hover {
 }
 
 .container-explore .section-images .box-image .image.explore-img-3 {
-  background-image: url(../images/8.jpg);
+  background-image: url(../../images/8.jpg);
 }
 
 .container-explore .section-images .box-image .image.explore-img-3 .heart-icon {
