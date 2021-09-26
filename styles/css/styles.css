@@ -434,6 +434,10 @@ section #section-2 .section-2-btn:hover {
   border-radius: 50%;
 }
 
+.container-explore .section-images .box-image .image.explore-img-1 .heart-icon .fas {
+  color: #ff009d;
+}
+
 .container-explore .section-images .box-image .caption-image {
   background-color: var(--mainWhiteColor);
   display: -webkit-box;
@@ -496,6 +500,10 @@ section #section-2 .section-2-btn:hover {
   border-radius: 50%;
 }
 
+.container-explore .section-images .box-image .image.explore-img-2 .heart-icon .fas {
+  color: #ff009d;
+}
+
 .container-explore .section-images .box-image .image .caption-image {
   background-color: var(--mainWhiteColor);
   display: -webkit-box;
@@ -556,6 +564,10 @@ section #section-2 .section-2-btn:hover {
   background-color: var(--mainWhiteColor);
   padding: 1rem 1.2rem;
   border-radius: 50%;
+}
+
+.container-explore .section-images .box-image .image.explore-img-3 .heart-icon .fas {
+  color: #ff009d;
 }
 
 .container-explore .section-images .box-image .image .caption-image {

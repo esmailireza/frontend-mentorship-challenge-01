@@ -20,6 +20,9 @@
   background-color: var(--mainWhiteColor);
   padding: 1rem 1.2rem;
   border-radius: 50%;
+  .fas {
+    color: #ff009d;
+  }
 }
 
 @mixin caption-image {
